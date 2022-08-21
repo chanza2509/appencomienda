@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividades.Menu">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/currier"/>
+
+    <Button
+        android:id="@+id/BTNmenuEncomiendas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="@string/btn_encomiendas"
+        android:background="@color/colorText" />
+
+    <Button
+        android:id="@+id/BTNmenuRegEncomienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="@string/btn_registrar_encomiendas"
+        android:background="@color/colorText" />
+
+    <Button
+        android:id="@+id/BTNmenuInforme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="@string/btn_informes"
+        android:background="@color/colorText" />
+    <Button
+        android:id="@+id/BTNmenuBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="@string/btn_buscar"
+        android:background="@color/colorText" />
+
+    <Button
+        android:id="@+id/BTNmenuOutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="@string/btn_cerrar_sesion"
+        android:background="@color/colorText" />
+
+
+
+</LinearLayout>
